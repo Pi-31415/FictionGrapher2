@@ -1,0 +1,75 @@
+{
+  "nodes": [
+    {
+      "name": "Beauty and the Beast",
+      "group": 1,
+      "image": "None",
+      "type": "person",
+      "author": "None",
+      "date": "April 19, 2022 1:53 AM",
+      "text": "This is a text about the disney movie."
+    },
+    {
+      "name": "Alladin",
+      "group": 2,
+      "image": "None",
+      "type": "theme",
+      "author": "None",
+      "date": "April 19, 2022 1:53 AM",
+      "text": "This is a text about Alladin."
+    },
+    {
+      "name": "Titanic",
+      "group": 3,
+      "image": "None",
+      "type": "media",
+      "author": "None",
+      "date": "April 19, 2022 1:53 AM",
+      "text": "This is a text about a reliable ship."
+    },
+    {
+      "name": "The Tale of Lin & Lang",
+      "group": 4,
+      "image": "None",
+      "type": "person",
+      "author": "Pi",
+      "date": "April 19, 2022 1:53 AM",
+      "text": "This is a text about a girl and her robot."
+    },
+    {
+      "name": "Whatever",
+      "group": 5,
+      "image": "None",
+      "type": "person",
+      "author": "None",
+      "date": "April 19, 2022 1:53 AM",
+      "text": "Whatever."
+    },
+    {
+      "name": "Spirited Away",
+      "group": 2,
+      "image": "None",
+      "type": "person",
+      "author": "None",
+      "date": "April 19, 2022 1:53 AM",
+      "text": "Ghibli Favourite."
+    },
+    {
+      "name": "Arrietty",
+      "group": 3,
+      "image": "None",
+      "type": "person",
+      "author": "None",
+      "date": "April 19, 2022 1:53 AM",
+      "text": "Ghibli Favourite."
+    }
+  ],
+  "links": [
+    { "source": 0, "target": 1, "value": 1 },
+    { "source": 2, "target": 3, "value": 1 },
+    { "source": 1, "target": 3, "value": 1 },
+    { "source": 2, "target": 1, "value": 1 },
+    { "source": 4, "target": 5, "value": 1 },
+    { "source": 4, "target": 6, "value": 1 }
+  ]
+}

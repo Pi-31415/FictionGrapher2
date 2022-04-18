@@ -1,0 +1,96 @@
+marker#child {
+  /* Uncomment alpha if you need the arrow */
+  fill: rgba(153, 153, 153, 0);
+}
+
+g.node circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+g.node:hover circle {
+  fill: #bf6f7e;
+  cursor: pointer;
+}
+
+g.node.selected circle {
+  fill: red;
+  stroke-width: 1.5px;
+}
+
+g.node.selected_target circle {
+  fill: pink;
+  stroke-width: 1.5px;
+}
+
+g.node text,
+g.node a {
+  pointer-events: none;
+  font: 10px sans-serif;
+  fill: #fff;
+  /* Text Outline */
+  /* text-shadow: 0 3px 0 #333740, 3px 0 0 #333740, 0 -3px 0 #333740,
+    -3px 0 0 #333740; */
+}
+
+line.link {
+  stroke: #999;
+  stroke-opacity: 1;
+  stroke-width: 3px;
+}
+
+line.new_line {
+  stroke: yellow;
+  stroke-opacity: 1;
+  stroke-width: 3px;
+}
+
+line.selected {
+  stroke: red;
+  stroke-opacity: 1;
+}
+
+rect {
+  fill: #000;
+}
+
+#chart {
+  background-color: #000;
+  margin: 0px;
+  padding: 0px;
+}
+.columnContainerRight {
+  float: left;
+  width: 30%;
+}
+
+.columnContainerLeft {
+  float: left;
+  width: 70%;
+}
+
+/* Clear floats after the columns */
+.rowContainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
+}
+
+/* Related to the input form */
+#contentForm {
+  z-index: 999;
+  position: absolute;
+  width: 500px;
+  top: 10px;
+  left: 10px;
+}
